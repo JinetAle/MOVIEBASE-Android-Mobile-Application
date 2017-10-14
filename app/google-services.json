@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1065002251913",
+    "firebase_url": "https://listview-multiitems-e34df.firebaseio.com",
+    "project_id": "listview-multiitems-e34df",
+    "storage_bucket": "listview-multiitems-e34df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065002251913:android:b67853f63711d89f",
+        "android_client_info": {
+          "package_name": "com.masterproject.jinet.moviedata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065002251913-d1cau8400iar603ud590c1e7rcvjke98.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASLmMqkVyySGmxHZP7t01tDjjQAvcjoSU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

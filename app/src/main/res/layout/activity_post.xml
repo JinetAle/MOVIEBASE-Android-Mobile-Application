@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    android:padding="10dp"
+    tools:context="com.masterproject.jinet.moviedata.PostActivity">
+    <EditText
+        android:id="@+id/movieEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:padding="15dp"
+        android:hint="Movie Title (with rating out of 10)"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/reviewEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:padding="15dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="Post your review here....."
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/movieEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit your review"
+        android:id="@+id/submitbutton"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="34dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/reviewEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
